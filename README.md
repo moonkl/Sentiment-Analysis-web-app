@@ -60,7 +60,7 @@ This application supports sentiment analysis in the following languages:
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/multilingual-sentiment-analysis-app.git
+git clone https://github.com/EvanGKS/multilingual-sentiment-analysis-app.git
 cd multilingual-sentiment-analysis-app
 ```
 
