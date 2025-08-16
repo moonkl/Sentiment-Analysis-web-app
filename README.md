@@ -1,145 +1,139 @@
 # 🌍 Multilingual Sentiment Analysis Web App
 
-**Showcase your AI skills with a full-stack, production-ready sentiment analysis application!**
+![GitHub Repo stars](https://img.shields.io/github/stars/moonkl/Sentiment-Analysis-web-app?style=social)
+![GitHub Repo forks](https://img.shields.io/github/forks/moonkl/Sentiment-Analysis-web-app?style=social)
+![GitHub issues](https://img.shields.io/github/issues/moonkl/Sentiment-Analysis-web-app)
 
-This project demonstrates advanced AI integration, modern web development, and best practices for deploying intelligent applications. It analyzes sentiment in text across dozens of languages using the Hugging Face Inference API and the [tabularisai/multilingual-sentiment-analysis](https://huggingface.co/tabularisai/multilingual-sentiment-analysis) model, with automatic language detection and a beautiful, responsive user interface.
+Welcome to the **Sentiment Analysis Web App**! This application allows you to analyze sentiments in over 20 languages using advanced AI models from Hugging Face. It is built with Flask and provides a user-friendly interface for real-time sentiment analysis. Whether you are a developer, researcher, or just curious about sentiment trends, this app has something for you.
 
----
+## Table of Contents
 
-## 🚀 Why This Project?
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-- **Portfolio-Ready:** Designed to highlight your expertise in AI, API integration, and full-stack development.
-- **Remote Inference:** Uses Hugging Face's hosted API—no heavy local models required.
-- **Multilingual:** Supports sentiment analysis in 20+ languages, making it globally accessible.
-- **Modern UI:** Responsive, visually dynamic interface that adapts to sentiment results.
-- **Robust Engineering:** Includes error handling, environment variable management, and a comprehensive test suite.
+## Features
 
----
-
-## ✨ Features
-
-- Multilingual sentiment analysis (Very Positive, Positive, Neutral, Negative, Very Negative)
-- Real-time results with color-coded, animated feedback
-- Automatic language detection for user input
-- Responsive, mobile-friendly design
-- Seamless integration with Hugging Face Inference API
-- Clear error messages and user guidance
-- Easily extensible and well-documented codebase
-
-## Supported Languages
-
-This application supports sentiment analysis in the following languages:
-- English
-- Spanish
-- French
-- German
-- Italian
-- Portuguese
-- Dutch
-- Polish
-- Russian
-- Czech
-- Arabic
-- Chinese
-- Korean
-- Japanese
-- Hindi
-- Bengali
-- Turkish
-- Indonesian
-- And many more (see the [model card](https://huggingface.co/tabularisai/multilingual-sentiment-analysis) for details)
+- **Multilingual Support**: Analyze sentiments in over 20 languages.
+- **Real-Time Analysis**: Get instant feedback on sentiment.
+- **Automatic Language Detection**: The app detects the language of the input text automatically.
+- **Responsive UI**: The user interface adjusts to different screen sizes, making it accessible on both desktop and mobile devices.
+- **Easy to Use**: Simple input field for text and clear output display.
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Flask (Python)
-- **ML Model API**: [Hugging Face Inference API](https://huggingface.co/inference-api) with [tabularisai/multilingual-sentiment-analysis](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
-- **Language Detection**: langdetect
+- **Flask**: A lightweight WSGI web application framework for Python.
+- **Hugging Face**: A platform for Natural Language Processing (NLP) models.
+- **Python**: The primary programming language used for backend development.
+- **HTML/CSS**: For front-end design and layout.
+- **JavaScript**: For interactive elements and real-time updates.
 
 ## Installation
 
-1. Clone this repository:
-```
-git clone https://github.com/EvanGKS/multilingual-sentiment-analysis-app.git
-cd multilingual-sentiment-analysis-app
-```
+To get started with the Sentiment Analysis Web App, follow these steps:
 
-2. Create a virtual environment and activate it:
-```
-python -m venv venv
-# On Windows
-.\venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-```
+1. **Clone the repository**:
 
-3. Install dependencies:
-```
-pip install -r requirements.txt
-```
+   ```bash
+   git clone https://github.com/moonkl/Sentiment-Analysis-web-app.git
+   cd Sentiment-Analysis-web-app
+   ```
 
-4. Create a `.env` file in the root directory (copy from `.env.example`):
-```
-cp .env.example .env
-```
+2. **Install dependencies**:
 
-5. Get a Hugging Face API token from [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) and add it to your `.env` file:
-```
-HUGGINGFACE_API_KEY=your_api_key_here
-```
+   Make sure you have Python and pip installed. Then run:
 
-Note: The application will work with limited functionality without an API key, but it's recommended to set one up for production use.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Running the Application
+3. **Run the application**:
 
-1. Start the Flask server:
-```
-python app.py
-```
+   Start the Flask server with:
 
-2. Open your browser and go to:
-```
-http://localhost:5000
-```
+   ```bash
+   python app.py
+   ```
 
-## Running Tests
+   The app will run on `http://127.0.0.1:5000/`.
 
-Run tests using pytest:
-```
-pytest
-```
+## Usage
 
-## Project Structure
+1. Open your web browser and navigate to `http://127.0.0.1:5000/`.
+2. Enter the text you want to analyze in the input field.
+3. Click the "Analyze" button.
+4. View the sentiment results displayed on the screen.
 
-```
-.
-├── app.py                  # Main Flask application
-├── requirements.txt        # Python dependencies
-├── .gitignore              # Git ignore file
-├── .env.example            # Example environment variables
-├── .env                    # Environment variables (create this, not tracked in git)
-├── README.md               # Project documentation
-├── static/                 # Static assets
-│   ├── css/                # CSS stylesheets
-│   │   └── style.css       # Main stylesheet
-│   └── js/                 # JavaScript files
-│       └── script.js       # Main JavaScript file
-├── templates/              # HTML templates
-│   └── index.html          # Main page template
-└── tests/                  # Test directory
-    ├── __init__.py         # Makes tests a package
-    ├── test_app.py         # Tests for Flask app
-    └── test_sentiment.py   # Tests for sentiment analysis
-```
+## Contributing
+
+We welcome contributions! If you want to help improve the app, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE) © 2025 Evan GKS.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Author
+## Contact
 
-Evan GKS
+For any inquiries, please reach out to the project maintainer:
 
----
+- **Name**: Your Name
+- **Email**: your.email@example.com
+- **GitHub**: [moonkl](https://github.com/moonkl)
 
-Feel free to contribute to this project by submitting issues or pull requests!
+## Releases
+
+For the latest updates and releases, please visit the [Releases section](https://github.com/moonkl/Sentiment-Analysis-web-app/releases). You can download the latest version of the app from there and execute it locally.
+
+![Releases](https://img.shields.io/badge/Releases-Click%20Here-brightgreen)
+
+## Screenshots
+
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+*Home Page of the Sentiment Analysis Web App*
+
+![Results Page](https://via.placeholder.com/800x400?text=Results+Page)
+*Results Page showing sentiment analysis output*
+
+## FAQs
+
+### What is Sentiment Analysis?
+
+Sentiment analysis is a technique used to determine the emotional tone behind a series of words. It is commonly used to understand customer opinions, feedback, and trends in social media.
+
+### How does the app detect language?
+
+The app uses advanced NLP models from Hugging Face to automatically identify the language of the input text. This feature allows users to input text without specifying the language.
+
+### Can I contribute to the project?
+
+Yes, contributions are welcome! Please refer to the Contributing section for guidelines.
+
+### Is the app free to use?
+
+Yes, the app is open-source and free to use. You can download it and run it on your local machine.
+
+### What if I encounter issues?
+
+If you face any problems, please check the [Issues section](https://github.com/moonkl/Sentiment-Analysis-web-app/issues) for existing reports or create a new issue.
+
+## Future Enhancements
+
+We plan to add more features in the future, including:
+
+- Support for more languages.
+- Enhanced user interface with more interactive elements.
+- Integration with social media platforms for real-time sentiment tracking.
+
+Thank you for checking out the **Sentiment Analysis Web App**! We hope you find it useful for your sentiment analysis needs.
